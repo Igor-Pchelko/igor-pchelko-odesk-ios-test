@@ -43,6 +43,7 @@
 
 + (NSArray *)arrayForFetchRequestWithName: (NSString *)name {
 	NSFetchRequest *request = [CoreDataHelpers fetchRequestWithName:name];
+    
 	NSManagedObjectContext *context = [CoreDataHelpers currentContext];
 	
 	NSError *error = nil;

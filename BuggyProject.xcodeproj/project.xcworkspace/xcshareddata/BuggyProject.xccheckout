@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2E8E486D-68FA-4DAF-A403-83BBE504F44E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BuggyProject</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>370FCD92-6225-4499-B24D-93BCE0D7812D</key>
+		<string>https://github.com/Igor-Pchelko/igor-pchelko-odesk-ios-test.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BuggyProject.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>370FCD92-6225-4499-B24D-93BCE0D7812D</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Igor-Pchelko/igor-pchelko-odesk-ios-test.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>370FCD92-6225-4499-B24D-93BCE0D7812D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>370FCD92-6225-4499-B24D-93BCE0D7812D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BuggyProject</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,12 +1,12 @@
 //
 //  ViewController.m
 //  BuggyProject
-//
-//  Created by Nabi Makhmudov on 3/4/14.
 //  Copyright (c) 2014 oDesk Corporation. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "SomeClass.h"
+#import "CoreDataHelpers.h"
 
 @interface ViewController ()
 
@@ -33,6 +33,44 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)firstBug:(id)sender {
+	[SomeClass printTextInMain:@"Bug 1"];
+}
+
+- (IBAction)secondBug:(id)sender {
+	NSInteger x = 123;
+	void (^printX)() = ^() {
+		NSLog(@"%i", x);
+	};
+	x++;
+	printX();
+}
+
+- (IBAction)thirdBug:(id)sender {
+	[CoreDataHelpers fillUnsortedData];
+	NSArray *models = [CoreDataHelpers arrayForFetchRequestWithName:@"AllModels"];
+	NSLog(@"%@", models);
+}
+
+- (IBAction)fourthBug:(id)sender {
+	static NSInteger count = 1;
+	if (count>1) {
+		[CoreDataHelpers cleanData];
+	}
+	
+	[CoreDataHelpers fillUnsortedData];
+	NSArray *models = [CoreDataHelpers arrayForFetchRequestWithName:@"AllModels"];
+	NSLog(@"%@", models);
+	
+	count++;
+}
+
+- (IBAction)fifthBug:(id)sender {
+	[CoreDataHelpers fillUnsortedData];
+	NSArray *models = [CoreDataHelpers arrayForFetchRequestWithName:@"AllModels"];
+	NSLog(@"%@", models);
 }
 
 @end
